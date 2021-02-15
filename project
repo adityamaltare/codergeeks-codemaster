@@ -41,7 +41,7 @@
             <p class="mb-8 leading-relaxed"> At CG_freelancer we provide you with best certified experts freelancers of their fields. we give you a large number of available freelancer. If you are a college student and want to work together with other college students working in fields like you. Then you are at right place.  </p>
             <div class="flex justify-center">
               <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">HIRE NOW</button>
-              <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">collaborate</button>
+              <button class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">COLLABORATE</button>
             </div>
           </div>
         </div>
