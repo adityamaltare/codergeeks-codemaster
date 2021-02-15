@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="filter.css">
+    <script src="filter.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Control buttons -->
+<div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('python developer')"> python developer</button>
+    <button class="btn" onclick="filterSelection('backend developer')"> backend developer</button>
+    <button class="btn" onclick="filterSelection('data scientist')"> data scientist</button>
+    <button class="btn" onclick="filterSelection('web developer')"> web developer</button>
+  </div>
+  
+  <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+  <div class="container">
+    <div class="filterDiv python developer">user1</div>
+    <div class="filterDiv web developer data scientist">user2</div>
+    <div class="filterDiv python developer">user3</div>
+    <div class="filterDiv web developer">user4</div>
+    <div class="filterDiv python developer backend developer">user5</div>
+    <div class="filterDiv web developer">user6</div>
+    <div class="filterDiv backend developer">user7</div>
+    <div class="filterDiv backend developer">user8</div>
+    <div class="filterDiv data scientist">user9</div>
+    <div class="filterDiv data scientist backend developer">user10</div>
+    <div class="filterDiv data scientist">user11</div>
+    <div class="filterDiv data scientist">user12</div>
+    <div class="filterDiv backend developer">user13</div>
+  </div>
+</body>
+</html>
